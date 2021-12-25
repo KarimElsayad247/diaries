@@ -93,12 +93,14 @@ I implemented some tests for the writer next. This turned out to be particularly
 * Read that new file using the read method of *another* instance of the api class
 * compare different parameters and function outputs of those two api instances.
 
-Quickly then, I implemented the last remaining method, queryDevicesWithNetlistNode. Working on these last two requirements made me proud of the way I structured my classes, as implementing everything turned out to be incredibly simple when every class needs only to focus on a small part of the overall pictures. 
+Quickly then, I implemented the last remaining method, queryDevicesWithNetlistNode. Working on these last two requirements made me proud of the way I structured my classes, as implementing everything turned out to be incredibly simple when every class needs only to focus on a small part of the overall pictures.
 
 By implementing that last method, all the functional requirements are done, and essentially most of the non-functional requirements. Tomorrow I would be focusing on documenting the API and classes, as that's the only taks that remains. Tomorrow should be the last day I work on these tasks in earnest, and I would only revisit them to think about some tests, clean up, or failure cases.
 
 ## Day 6
 
-The day started as planned. I've added documentation for API methods, and generated some javadoc html files and hosted them on github pages. They can now be accessed from the web. Doing some clean up, I've come to learn about a new feature introduced in java 15: Records. 
+The day started as planned. I've added documentation for API methods, and generated some javadoc html files and hosted them on github pages. They can now be accessed from the web. Doing some clean up, I've come to learn about a new feature introduced in java 15: Records.
 
-While refactoring, documenting, and cleaning, I opted to create an interface containing the API methods. Thanks to IntelliJ's powerful refactoring tools, this was done immediately and easily, and all tests passes no problem.
+While refactoring, documenting, and cleaning, I opted to create an interface containing the API methods. Thanks to IntelliJ's powerful refactoring tools, this was done immediately and easily, and all tests passes no problem. For the coming few day, I'll probably just be thinking about more tests and ways to break the program, though I believe spending any more time is not worth it. I'm essentially done, docs and all.
+
+Thus, I decided to submit today. 6 days before deadline, nice!
